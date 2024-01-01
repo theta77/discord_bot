@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const client = new Discord.Client({intents: ["Guilds", "GuildMessages", "MessageContent"]});
-const token = "MTE5MDkyMzA2NzA1NzI2MjcwMw.GvVt01.TPBAjIZluRssLdyqT8le9R7Bh_k8DLwGC6JNYM";
+const token = "MTE5MDkyMzA2NzA1NzI2MjcwMw.GkAwk-.Avq7KfAlVIxrL4gg4G0VDTmeRDAKkgVQbh2Qc8";
 client.login(token)
 
 client.once('ready', function() {
